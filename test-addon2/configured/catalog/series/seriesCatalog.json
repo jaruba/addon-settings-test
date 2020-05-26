@@ -1,0 +1,11 @@
+{
+    "metas": [
+        {
+            "id": "hiwrld_jellyfish",
+            "type": "series",
+            "name": "Jellyfish 2 Configured",
+            "poster": "https://images.unsplash.com/photo-1496108493338-3b30de66f9be",
+            "genres": ["Demo", "Nature"]
+        }
+    ]
+}

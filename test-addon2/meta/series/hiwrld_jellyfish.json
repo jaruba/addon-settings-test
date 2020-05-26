@@ -1,0 +1,70 @@
+{
+    "meta": {
+        "id": "hiwrld_jellyfish",
+        "type": "series",
+        "name": "Jellyfish addon 2",
+        "poster": "https://images.unsplash.com/photo-1496108493338-3b30de66f9be",
+        "background": "https://images.unsplash.com/photo-1461783470466-185038239ee3",
+        "logo": "https://b.kisscc0.com/20180705/yee/kisscc0-art-forms-in-nature-jellyfish-recapitulation-theor-jellyfish-5b3dcabcb00692.802484341530776252721.png",
+        "description": "From  addon 2: A .mkv video clip useful for testing the network streaming and playback performance of media streamers & HTPCs.",
+        "releaseInfo": "2020",
+        "runtime": "30 sec",
+        "released": "2020-04-16T07:57:48.271Z",
+        "posterShape": "poster",
+        "videos": [
+            {
+                "season": 1,
+                "episode": 1,
+                "id": "hiwrld_jellyfish:1:1",
+                "title": "Christopher Columbus addon 2",
+                "released": "1955-12-18T07:57:48.271Z",
+                "streams": [
+                    {
+                        "title": "Web, 3 MBps, HD addon 2",
+                        "url": "http://jell.yfish.us/media/jellyfish-3-mbps-hd-h264.mkv"
+                    },
+                    {
+                        "title": "Web 15 MBps, HD addon 2",
+                        "url": "http://jell.yfish.us/media/jellyfish-15-mbps-hd-h264.mkv"
+                    },
+                    {
+                        "title": "Web, 120 MBps, 4K addon 2",
+                        "url": "http://jell.yfish.us/media/jellyfish-120-mbps-4k-uhd-h264.mkv"
+                    },
+                    {
+                        "title": "Big Buck Bunny addon 2",
+                        "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+                    }
+                ]
+            },
+            {
+                "season": 1,
+                "episode": 2,
+                "id": "hiwrld_jellyfish:1:2",
+                "title": "Daniel Boone addon 2",
+                "released": "1955-12-25T07:57:48.271Z",
+                "streams": [
+                    {
+                        "title": "Web, 3 MBps, HD addon 2",
+                        "url": "http://jell.yfish.us/media/jellyfish-3-mbps-hd-h264.mkv"
+                    },
+                    {
+                        "title": "Web 15 MBps, HD addon 2",
+                        "url": "http://jell.yfish.us/media/jellyfish-15-mbps-hd-h264.mkv"
+                    },
+                    {
+                        "title": "Web, 120 MBps, 4K addon 2",
+                        "url": "http://jell.yfish.us/media/jellyfish-120-mbps-4k-uhd-h264.mkv"
+                    },
+                    {
+                        "title": "Big Buck Bunny addon 2",
+                        "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+                        "behaviorHints": {
+                            "bingeGroup": "jelly"
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}

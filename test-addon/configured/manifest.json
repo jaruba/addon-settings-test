@@ -1,0 +1,20 @@
+{
+    "id": "my.first.stremio.add-on",
+    "version": "1.0.0",
+    "name": "Hello, World Configured",
+    "description" : "My first Stremio add-on",
+    "logo": "https://www.stremio.com/website/stremio-logo-small.png",
+    "resources": [
+        "catalog",
+        {
+            "name": "meta",
+            "types": ["series"],
+            "idPrefixes": ["hiwrld_"]
+        },
+        "stream"
+    ],
+    "types": ["series"],
+    "catalogs": [
+        {"id": "seriesCatalog", "type": "series", "name": "Hello, series"}
+    ]
+}

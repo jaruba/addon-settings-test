@@ -1,0 +1,23 @@
+{
+    "id": "my.second.stremio.add-on",
+    "version": "1.0.0",
+    "name": "Hello, World2",
+    "description" : "My second Stremio add-on",
+    "logo": "https://www.stremio.com/website/stremio-logo-small.png",
+    "resources": [
+        "catalog",
+        {
+            "name": "meta",
+            "types": ["series"],
+            "idPrefixes": ["hiwrld_"]
+        }
+    ],
+    "types": ["series"],
+    "catalogs": [
+        {"id": "seriesCatalog", "type": "series", "name": "Hello, series addon 2"}
+    ],
+    "behaviorHints": {
+        "configurable": true,
+        "configurationRequired": false
+    }
+}

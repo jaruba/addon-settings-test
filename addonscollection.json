@@ -1,0 +1,46 @@
+[
+    {
+        "transportUrl": "http://127.0.0.1:8080/test-addon/manifest.json",
+        "transportName": "http",
+        "manifest": {
+            "id": "my.first.stremio.add-on",
+            "version": "1.0.0",
+            "name": "Hello, World",
+            "description" : "My first Stremio add-on",
+            "logo": "https://www.stremio.com/website/stremio-logo-small.png",
+            "resources": [
+                "catalog",
+                "meta",
+                "stream"
+            ],
+            "types": ["series"],
+            "catalogs": [
+            ],
+            "behaviorHints": {
+                "configurable": true,
+                "configurationRequired": true
+            }
+        }
+    },
+    {
+        "transportUrl": "http://127.0.0.1:8080/test-addon2/manifest.json",
+        "transportName": "http",
+        "manifest": {
+            "id": "my.second.stremio.add-on",
+            "version": "1.0.0",
+            "name": "Hello, World2",
+            "description" : "My second Stremio add-on",
+            "logo": "https://www.stremio.com/website/stremio-logo-small.png",
+            "resources": [
+                "catalog",
+                "meta"
+            ],
+            "types": ["series"],
+            "catalogs": [],
+            "behaviorHints": {
+                "configurable": true,
+                "configurationRequired": false
+            }
+        }
+    }
+]
