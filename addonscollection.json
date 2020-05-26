@@ -1,6 +1,6 @@
 [
     {
-        "transportUrl": "http://127.0.0.1:8080/test-addon/manifest.json",
+        "transportUrl": "https://jaruba.github.io/addon-settings-test/test-addon/manifest.json",
         "transportName": "http",
         "manifest": {
             "id": "my.first.stremio.add-on",
@@ -23,7 +23,7 @@
         }
     },
     {
-        "transportUrl": "http://127.0.0.1:8080/test-addon2/manifest.json",
+        "transportUrl": "https://jaruba.github.io/addon-settings-test/test-addon2/manifest.json",
         "transportName": "http",
         "manifest": {
             "id": "my.second.stremio.add-on",
